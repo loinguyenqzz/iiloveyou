@@ -19,7 +19,7 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
 
-<body>
+<body onclick="loadSound()">
 	<div class="container">
 		<div class="row mt-5 main">
 			<div class="col-12 text-center">
@@ -210,8 +210,16 @@
 	<!-- Phần nhạc -->
 	<!-- Bạn tải 1 bài nhạc rồi copy vào thư mục music và thay đổi tên bài hát ở bên dưới -->
 	
-<audio id="player" autoplay loop >
-    <source src="./music/music.mp3" type="audio/mp3">
+<script>
+        var checkAudio = false;
+        function loadSound() {
+            var audio = new Audio('music/music.mp3');
+            if (!checkAudio) {
+                audio.play();
+                checkAudio = true;
+            }
+        }
+    </script>
 </body>
 
 </html>
