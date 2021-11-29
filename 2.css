@@ -15,12 +15,12 @@
 }
 
 .content {
-	background-color: #59b4c4;
+	background-color: #b64a6a;
 }
 
 body {
 	/* Ảnh nền của trang thứ 2 */
-	background-image: url("./img/bg2.jpg");
+	background-image: url("./img/—Pngtree—romantic\ pink\ flowers\ background_217904.png");
 	background-size: cover;
     background-repeat: none;
 }
@@ -35,7 +35,7 @@ span {
 
 .mask {
 	position: absolute;
-	background-color: #59b4c4;
+	background-color: #ce465d;
 	width: 100%;
 	height:100%;
 	top: 0;

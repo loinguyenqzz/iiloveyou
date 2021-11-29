@@ -29,7 +29,7 @@
     /* height: 100vh; */
     z-index: 0;
     background-repeat: no-repeat;
-    background-image: url(../img/bg.webp);
+    background-image: url(../img/23417.jpg);
     background-size: cover;
     background-position: 50%;
     -webkit-filter: blur(4px);
@@ -53,13 +53,13 @@ header h2 {
     font-size: 80px;
     text-align: center;
     margin-bottom: 30px;
-    color: cyan;
+    color: palevioletred;
 }
 
 header h4 {
     font-family: 'Pacifico';
     text-align: center;
-    color: chartreuse;
+    color: #DC143C;
 }
 
 @media only screen and (max-width: 500px) {
